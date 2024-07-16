@@ -17,5 +17,12 @@
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilroy-code/distributed-security.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }  
 }
