@@ -1,0 +1,21 @@
+{
+  "name": "@ki1r0y/cache",
+  "version": "1.0.0",
+  "description": "Simple, fast, least-recently-used cache (specifically, last set) with active time-to-live eviction, optimized for large-string keys and frequent reads, and no dependencies (other than jasmine dev testing).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "cache",
+    "lru",
+    "ttl",
+    "map",
+    "large-keys"
+  ],
+  "author": "howard.stearns@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
+}
