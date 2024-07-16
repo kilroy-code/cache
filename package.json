@@ -1,8 +1,11 @@
 {
   "name": "@ki1r0y/cache",
-  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "default": "./index.mjs"
+  },
+  "version": "1.0.1",
   "description": "Simple, fast, least-recently-used cache (specifically, last set) with active time-to-live eviction, optimized for large-string keys and frequent reads, and no dependencies (other than jasmine dev testing).",
-  "main": "index.js",
   "scripts": {
     "test": "jasmine"
   },
