@@ -18,7 +18,7 @@ export class Cache extends Map {
     // However, that key and others may have already been deleted.
     // This implementation maximizes read speed first, write speed second, and simplicity/correctness third.
     // It does NOT try to keep the maximum number of values present. So as keys get manually deleted, the keyList
-    // s not adjusted, and so there will keys present in the array that do not have entries in the values
+    // is not adjusted, and so there will keys present in the array that do not have entries in the values
     // map. The array is maxSize long, but the meaningful entries in it may be less.
     this.delete(this._keyList[nextWriteIndex]); // Regardless of current size.
     this._keyList[nextWriteIndex] = key;
